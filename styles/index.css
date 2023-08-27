@@ -35,13 +35,15 @@ body {
 
 #home {
     height: 100vh;
+    padding-top: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-#home span {
-    
+.container-main-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #about-me {

@@ -1,34 +1,53 @@
 #home-hello {
     animation: textAni1 1.5s linear forwards;
-    color: cornflowerblue;
+    animation-delay: 0.7s;
+    color: black;
     font-size: 4rem;
     font-weight: bold;
+    position: absolute;
+    left: 38%;
 }
 
 #home-world {
     animation: textAni2 1.5s linear forwards;
+    animation-delay: 0.7s;
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    position: absolute;
+    right: 35%;
+}
+
+#home-name {
+    opacity: 0;
+    animation: textAni 1s linear forwards;
+    animation-delay: 2.4s;
     color: cornflowerblue;
     font-size: 4rem;
     font-weight: bold;
 }
 
 @keyframes textAni1 {
-    0% {
+    from {
         transform: translateX(0px);
-    } 50% {
-        transform: translateX(0px);
-    } 100% {
-        transform: translatex(-150px);
+    } to {
+        transform: translatex(-250px);
     }
     
 }
 
 @keyframes textAni2 {
+    from {
+        transform: translateX(0px);
+    } to {
+        transform: translatex(250px);
+    }
+}
+
+@keyframes textAni {
     0% {
-        transform: translateX(0px);
-    } 50% {
-        transform: translateX(0px);
+        opacity: 0;
     } 100% {
-        transform: translatex(150px);
+       opacity: 1;
     }
 }
