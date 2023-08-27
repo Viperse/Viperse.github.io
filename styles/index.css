@@ -7,7 +7,7 @@ body {
 }
 
 .container-category {
-    height: 95vh;
+    height: 96vh;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -16,14 +16,14 @@ body {
 }
 
 .container-category a {
-    color: rgb(178, 178, 229);
-    padding: 2px;
+    color: black;
+    padding-bottom: 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .container-category a:hover {
-    color: darkblue;
+    color: cornflowerblue;
 }
 
 .container-main {
@@ -35,24 +35,42 @@ body {
 
 #home {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home span {
+    
 }
 
 #about-me {
     height: 100vh;
+    padding-top: 20px;
 }
 
 #skils {
     height: 100vh;
+    padding-top: 20px;
 }
 
 #edu-certi {
     height: 100vh;
+    padding-top: 20px;
 }
 
 #project {
     height: 100vh;
+    padding-top: 20px;
 }
 
 #contact {
     height: 100vh;
+    padding-top: 20px;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
