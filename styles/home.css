@@ -1,6 +1,6 @@
 #home-hello {
     animation: textAni1 1.5s linear forwards;
-    animation-delay: 0.7s;
+    animation-delay: 1s;
     color: black;
     font-size: 4rem;
     font-weight: bold;
@@ -10,20 +10,22 @@
 
 #home-world {
     animation: textAni2 1.5s linear forwards;
-    animation-delay: 0.7s;
+    animation-delay: 1s;
     color: black;
     font-size: 4rem;
     font-weight: bold;
     position: absolute;
-    right: 35%;
+    right: 38%;
 }
 
 #home-name {
     opacity: 0;
     animation: textAni 1s linear forwards;
-    animation-delay: 2.4s;
+    animation-delay: 3s;
     color: cornflowerblue;
     font-size: 4rem;
+    position: absolute;
+    left: 38%;
     font-weight: bold;
 }
 
@@ -31,7 +33,7 @@
     from {
         transform: translateX(0px);
     } to {
-        transform: translatex(-250px);
+        transform: translatex(-200px);
     }
     
 }
@@ -40,7 +42,7 @@
     from {
         transform: translateX(0px);
     } to {
-        transform: translatex(250px);
+        transform: translatex(200px);
     }
 }
 
