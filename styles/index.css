@@ -3,24 +3,21 @@
 }
 
 .container-category {
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    bottom: 10px;
+    left: 0;
     position: fixed;
-    top: 70%;
-    z-index: 100;
 }
 
 .container-category a {
     color: black;
-    padding-top: 15px;
+    padding-top: 20px;
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
-}
+    font-family: 'Pangolin', cursive;
 
-.container-category a:hover {
-    color: steelblue;
 }
 
 .container-main {
@@ -73,4 +70,9 @@ h2 {
     color: black;
     font-size: 3rem;
     font-weight: bold;
+    font-family: 'Pangolin', cursive;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
 }
