@@ -31,18 +31,18 @@
 
 @keyframes textAni1 {
     from {
-        transform: translateX(0px);
+        transform: translateX(0%);
     } to {
-        transform: translatex(-195px);
+        transform: translatex(-110%);
     }
     
 }
 
 @keyframes textAni2 {
     from {
-        transform: translateX(0px);
+        transform: translateX(0%);
     } to {
-        transform: translatex(195px);
+        transform: translatex(80%);
     }
 }
 
