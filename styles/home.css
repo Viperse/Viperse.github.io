@@ -25,7 +25,7 @@
     color: steelblue;
     font-size: 4rem;
     position: absolute;
-    left: 38%;
+    left: 39%;
     font-weight: bold;
 }
 
@@ -42,7 +42,7 @@
     from {
         transform: translateX(0%);
     } to {
-        transform: translatex(80%);
+        transform: translatex(100%);
     }
 }
 
